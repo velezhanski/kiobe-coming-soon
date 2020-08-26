@@ -14,7 +14,12 @@
     padding: 1rem;
   }
 
-  ul a {
+  ul div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul div p, ul div a {
     padding: 10px;
   }
 </style>
@@ -23,11 +28,35 @@
 <body>
   <h1>Kiobe Signatures</h1>
   <ul>
-    <a href="./Avgoustinos-Athianitis.html" download>Avgoustinos Athianitis</a>
-    <a href="./George-Karoullas.html" download>George Karoullas</a>
-    <a href="./Marinos-Vassiliou.html" download>Marinos Vassiliou</a>
-    <a href="./Marios-Antoniou.html" download>Marios Antoniou</a>
-    <a href="./Sofia-Mashovets.html" download>Sofia Mashovets</a>
+    <div>
+      <p>Avgoustinos Athianitis</p>
+      <a href="./Avgoustinos-Athianitis.html" target="_blank">Preview</a>
+      <a href="./Avgoustinos-Athianitis.html" download>Download</a>
+    </div>
+
+    <div>
+      <p>George Karoullas</p>
+      <a href="./George-Karoullas.html" target="_blank">Preview</a>
+      <a href="./George-Karoullas.html" download>Download</a>
+    </div>
+    
+    <div>
+      <p>Marinos Vassiliou</p>
+      <a href="./Marinos-Vassiliou.html" target="_blank">Preview</a>
+      <a href="./Marinos-Vassiliou.html" download>Download</a>
+    </div>
+
+    <div>
+      <p>Marios Antoniou</p>
+      <a href="./Marios-Antoniou.html" target="_blank">Preview</a>
+      <a href="./Marios-Antoniou.html" download>Download</a>
+    </div>
+
+    <div>
+      <p>Sofia Mashovets</p>
+      <a href="./Sofia-Mashovets.html" target="_blank">Preview</a>
+      <a href="./Sofia-Mashovets.html" download>Download</a>
+    </div>
   </ul>
 </body>
 
